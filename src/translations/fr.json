@@ -1,0 +1,315 @@
+{
+    "mainMenu": "Juridique et Financier",
+    "menu": {
+      "invoices": "Factures",
+      "bills": "Factures"
+    },
+    "emptyLabel": " ",
+    "any": "N'importe lequel",
+    "editButtonTooltip": "Modifier",
+    "deleteButtonTooltip": "Supprimer",
+    "dialog": {
+      "create": "Créer",
+      "update": "Sauvegarder",
+      "cancel": "Annuler"
+    },
+    "invoice": {
+      "pageTitle": "Facture {étiquette}",
+      "headPanelTitle": "Informations générales",
+      "subject": "Sujet",
+      "thirdparty": "Destinataire",
+      "code": "Code",
+      "codeTp": "Destinataire du code",
+      "codeExt": "Code système externe",
+      "dateDue": "Date d'échéance",
+      "dateInvoice": "Date Facture",
+      "dateValidFrom": "Depuis",
+      "dateValidTo": "À",
+      "datePayed": "Date de paiement",
+      "amountDiscount": "Rabais",
+      "amountNet": "Filet",
+      "taxAnalysis": "Impôt",
+      "amountTotal": "Montant Total",
+      "status": {
+        "label": "Statut",
+        "DRAFT": "Brouillon",
+        "VALIDATED": "Validé",
+        "PAID": "Payé",
+        "CANCELLED": "Annulé",
+        "DELETED": "Supprimé",
+        "SUSPENDED": "Suspendu",
+        "UNPAID": "Non rémunéré",
+        "RECONCILIATED": "Réconcilié"
+      },
+      "currencyTpCode": "Destinataire de la devise",
+      "currencyCode": "Devise",
+      "note": "Note",
+      "terms": "Termes",
+      "paymentReference": "Référence de paiement",
+      "delete": {
+        "confirm": {
+          "title": "Supprimer {code} ?",
+          "message": "Supprimer des données ne signifie pas les effacer de la base de données openIMIS. "
+        },
+        "mutationLabel": "Supprimer la facture {code}"
+      }
+    },
+    "invoices": {
+      "pageTitle": "Factures",
+      "searcherResultsTitle": "{invoicesTotalCount} factures trouvées"
+    },
+    "invoiceLineItems": {
+      "label": "Éléments de campagne",
+      "searcherResultsTitle": "{invoiceLineItemsTotalCount} éléments de campagne trouvés"
+    },
+    "invoiceLineItem": {
+      "code": "Code",
+      "description": "Description",
+      "ledgerAccount": "Compte général",
+      "quantity": "Quantité",
+      "unitPrice": "Prix ​​unitaire",
+      "discount": "Rabais",
+      "deduction": "Déduction",
+      "amountTotal": "Montant Total",
+      "amountNet": "Montant Net",
+      "amountNetTooltip": "Taxe : {valeur}"
+    },
+    "invoicePayments": {
+      "label": "Paiements",
+      "searcherResultsTitle": "{invoicePaymentsTotalCount} paiements trouvés"
+    },
+    "invoicePayment": {
+      "status": {
+        "label": "Statut",
+        "REJECTED": "Rejeté",
+        "ACCEPTED": "Accepté",
+        "REFUNDED": "Remboursé",
+        "CANCELLED": "Annulé"
+      },
+      "codeExt": "Code",
+      "label": "Étiquette",
+      "codeTp": "Code tiers",
+      "codeReceipt": "Numéro de reçu",
+      "amountPayed": "Montant payé",
+      "fees": "Frais",
+      "amountReceived": "Montant reçu",
+      "datePayment": "Date de paiement",
+      "paymentOrigin": "Origine du paiement",
+      "create": {
+        "label": "Créer un nouveau paiement",
+        "mutationLabel": "Créer un paiement de facture {invoicePaymentLabel} pour {invoiceCode}"
+      },
+      "update": {
+        "label": "Mettre à jour le paiement",
+        "mutationLabel": "Mettre à jour le paiement de la facture {invoicePaymentLabel} de {invoiceCode}"
+      },
+      "delete": {
+        "confirm": {
+          "title": "Supprimer {invoicePaymentLabel} ?",
+          "message": "Supprimer des données ne signifie pas les effacer de la base de données openIMIS. "
+        },
+        "mutationLabel": "Supprimer le paiement de facture {invoicePaymentLabel} de {invoiceCode}"
+      }
+    },
+    "invoiceEvents": {
+      "label": "Événements",
+      "searcherResultsTitle": "{invoiceEventsTotalCount} événements trouvés"
+    },
+    "invoiceEvent": {
+      "eventType": {
+        "label": "Taper",
+        "MESSAGE": "Message",
+        "STATUS": "Statut",
+        "WARNING": "Avertissement",
+        "PAYMENT": "Paiement",
+        "PAYMENT_ERROR": "Erreur de paiement"
+      },
+      "message": "Message"
+    },
+    "invoiceEventMessage": {
+      "create": {
+        "label": "Créer un nouveau commentaire",
+        "mutationLabel": "Créer un message d'événement de facture pour {invoiceCode}"
+      }
+    },
+    "bill": {
+      "pageTitle": "Facture {étiquette}",
+      "headPanelTitle": "Informations générales",
+      "subject": "Sujet",
+      "thirdparty": "Expéditeur",
+      "code": "Code",
+      "codeTp": "Expéditeur de code",
+      "codeExt": "Code système externe",
+      "dateDue": "Date d'échéance",
+      "dateBill": "Date de facture",
+      "dateValidFrom": "Depuis",
+      "dateValidTo": "À",
+      "datePayed": "Date de paiement",
+      "amountDiscount": "Rabais",
+      "amountNet": "Filet",
+      "taxAnalysis": "Impôt",
+      "amountTotal": "Montant Total",
+      "status": {
+        "label": "Statut",
+        "DRAFT": "Brouillon",
+        "VALIDATED": "Validé",
+        "PAID": "Payé",
+        "CANCELLED": "Annulé",
+        "DELETED": "Supprimé",
+        "SUSPENDED": "Suspendu",
+        "UNPAID": "Non rémunéré",
+        "RECONCILIATED": "Réconcilié"
+      },
+      "currencyTpCode": "Devise de tiers",
+      "currencyCode": "Devise",
+      "note": "Note",
+      "terms": "Termes",
+      "paymentReference": "Référence de paiement",
+      "delete": {
+        "confirm": {
+          "title": "Supprimer {code} ?",
+          "message": "Supprimer des données ne signifie pas les effacer de la base de données openIMIS. "
+        },
+        "mutationLabel": "Supprimer la facture {code}"
+      },
+      "selection.count": "{count} facture(s) sélectionnée(s)"
+    },
+    "bills": {
+      "pageTitle": "Factures",
+      "searcherResultsTitle": "{billsTotalCount} factures trouvées"
+    },
+    "billItems": {
+      "label": "Éléments de campagne",
+      "searcher": {
+        "resultsTitle": "{billLineItemsTotalCount} éléments de campagne trouvés"
+      }
+    },
+    "billItem": {
+      "code": "Code",
+      "description": "Description",
+      "ledgerAccount": "Compte général",
+      "quantity": "Quantité",
+      "unitPrice": "Prix ​​unitaire",
+      "discount": "Rabais",
+      "deduction": "Déduction",
+      "amountTotal": "Montant Total",
+      "amountNet": "Montant Net",
+      "amountNetTooltip": "Taxe : {valeur}"
+    },
+    "billPayments": {
+      "label": "Paiements",
+      "searcherResultsTitle": "{billPaymentsTotalCount} paiements trouvés"
+    },
+    "billPayment": {
+      "status": {
+        "label": "Statut",
+        "REJECTED": "Rejeté",
+        "ACCEPTED": "Accepté",
+        "REFUNDED": "Remboursé",
+        "CANCELLED": "Annulé"
+      },
+      "codeExt": "Code",
+      "label": "Étiquette",
+      "codeTp": "Code tiers",
+      "codeReceipt": "Numéro de reçu",
+      "amountPayed": "Montant payé",
+      "fees": "Frais",
+      "amountReceived": "Montant reçu",
+      "datePayment": "Date de paiement",
+      "paymentOrigin": "Origine du paiement",
+      "create": {
+        "label": "Créer un nouveau paiement",
+        "mutationLabel": "Créer un paiement de facture {billPaymentLabel} pour {billCode}"
+      },
+      "update": {
+        "label": "Mettre à jour le paiement",
+        "mutationLabel": "Mettre à jour le paiement de facture {billPaymentLabel} de {billCode}"
+      },
+      "delete": {
+        "confirm": {
+          "title": "Supprimer {billPaymentLabel} ?",
+          "message": "Supprimer des données ne signifie pas les effacer de la base de données openIMIS. "
+        },
+        "mutationLabel": "Supprimer le paiement de facture {billPaymentLabel} de {billCode}"
+      }
+    },
+    "billEvents": {
+      "label": "Événements",
+      "searcherResultsTitle": "{billEventsTotalCount} événements trouvés"
+    },
+    "billEvent": {
+      "eventType": {
+        "label": "Taper",
+        "MESSAGE": "Message",
+        "STATUS": "Statut",
+        "WARNING": "Avertissement",
+        "PAYMENT": "Paiement",
+        "PAYMENT_ERROR": "Erreur de paiement"
+      },
+      "message": "Message"
+    },
+    "billEventMessage": {
+      "create": {
+        "label": "Créer un nouveau commentaire",
+        "mutationLabel": "Créer un message d'événement de facturation pour {billCode}"
+      }
+    },
+    "paymentInvoices": {
+      "label": "Paiements",
+      "searcherResultsTitle": "{paymentInvoicesTotalCount} paiements trouvés"
+    },
+    "paymentInvoice": {
+      "reconciliationStatus": {
+        "label": "Statut de rapprochement",
+        "NOT_RECONCILIATED": "Non réconcilié",
+        "RECONCILIATED": "Réconcilié",
+        "REFUNDED": "Remboursé",
+        "CANCELLED": "Annulé"
+      },
+      "status": {
+        "label": "Statut",
+        "REJECTED": "Rejeté",
+        "ACCEPTED": "Accepté",
+        "REFUNDED": "Remboursé",
+        "CANCELLED": "Annulé"
+      },
+      "codeExt": "Code",
+      "label": "Étiquette",
+      "codeTp": "Code tiers",
+      "codeReceipt": "Numéro de reçu",
+      "fees": "Frais",
+      "amountReceived": "Montant reçu",
+      "datePayment": "Date de paiement",
+      "paymentOrigin": "Origine du paiement",
+      "payerRef": "Référence du payeur",
+      "payerName": "Nom du payeur",
+      "create": {
+        "label": "Créer un nouveau paiement",
+        "mutationLabel": "Créer un paiement {paymentInvoiceLabel} pour {code}"
+      },
+      "update": {
+        "label": "Mettre à jour le paiement",
+        "mutationLabel": "Mettre à jour le paiement {paymentInvoiceLabel} de {code}"
+      },
+      "delete": {
+        "confirm": {
+          "title": "Supprimer {paymentInvoiceLabel} ?",
+          "message": "Supprimer des données ne signifie pas les effacer de la base de données openIMIS. "
+        },
+        "mutationLabel": "Supprimer le paiement {paymentInvoiceLabel} de {code}"
+      }
+    },
+    "detailPaymentInvoice": {
+      "status": {
+        "label": "Statut",
+        "REJECTED": "Rejeté",
+        "ACCEPTED": "Accepté",
+        "REFUNDED": "Remboursé",
+        "CANCELLED": "Annulé"
+      },
+      "fees": "Frais",
+      "amount": "Montant",
+      "reconciliationId": "Identifiant de rapprochement",
+      "reconciliationDate": "Date de rapprochement"
+    }
+  }

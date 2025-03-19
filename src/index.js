@@ -2,6 +2,7 @@ import React from "react";
 import { DoubleArrow } from "@material-ui/icons";
 import { FormattedMessage } from "@openimis/fe-core";
 import messages_en from "./translations/en.json";
+import messages_fr from "./translations/fr.json";
 import reducer from "./reducer";
 import flatten from "flat";
 import LegalAndFinanceMainMenu from "./menus/LegalAndFinanceMainMenu";
@@ -34,7 +35,10 @@ const ROUTE_BILLS = "bills";
 const ROUTE_BILL = "bills/bill";
 
 const DEFAULT_CONFIG = {
-  "translations": [{ key: "en", messages: flatten(messages_en) }],
+  "translations": [
+    { key: "en", messages: flatten(messages_en) },
+    { key: "fr", messages: flatten(messages_fr) }
+  ],
   "reducers": [{ key: "invoice", reducer }],
   "core.MainMenu": [{
     name: 'LegalAndFinanceMainMenu',
