@@ -1,5 +1,6 @@
 {
   "mainMenu": "Legal and Finance",
+  "invoiceMainMenu": "Invoices",
   "menu": {
     "invoices": "Invoices",
     "bills": "Bills"
