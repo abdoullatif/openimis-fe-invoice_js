@@ -41,6 +41,7 @@ const LegalAndFinanceMainMenu = (props) => {
       <MainMenuContribution 
         {...props} 
         header={formatMessage(intl, "invoice", "mainMenu")}
+        icon={<DoubleArrow />}
         entries={entries}
         menuId='LegalAndFinanceMainMenu'
       />
@@ -78,6 +79,7 @@ const LegalAndFinanceMainMenu = (props) => {
     <MainMenuContribution 
       {...props} 
       header={formatMessage(intl, "invoice", "mainMenu")}
+      icon={<DoubleArrow />}
       entries={entries}
       menuId="LegalAndFinanceMainMenu"
     />
